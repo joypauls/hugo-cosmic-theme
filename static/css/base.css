@@ -1,12 +1,12 @@
 html {
     height: 100%;
-    background-color: var(--dark);
+    background-color: var(--background);
 }
 
 body {
     min-height: 100%;
     font-size: large;
-    color: var(--white);
+    color: var(--dark);
 }
 
 html::-webkit-scrollbar {
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #eee !important;
+    color: var(--text) !important;
     font-weight: 500;
     line-height: 1.3em;
     margin: 30px 0 20px 0;
@@ -66,14 +66,14 @@ header {
 
 a {
     margin-bottom: 2px;
-    color: var(--white);
+    color: var(--main);
     text-decoration: none;
     word-break: break-word;
 }
 
 a:hover,
 a.active {
-    color: var(--white);
+    color: var(--main);
 }
 
 a:hover,
@@ -89,11 +89,11 @@ a-clean.active {
 ::-moz-selection {
     background: var(--main);
     text-shadow: none;
-    color: #fff;
+    color: var(--text);
 }
 
 ::selection {
     background: var(--main);
     text-shadow: none;
-    color: #fff;
+    color: var(--text);
 }
