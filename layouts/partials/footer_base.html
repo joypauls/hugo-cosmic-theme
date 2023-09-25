@@ -1,16 +1,20 @@
 <div class="content has-text-centered">
+    <span>
+        <p style="margin: 0;">
+            all original images 
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener" style="margin: 0;">CC BY-NC 4.0</a>
+            but be cool please :)
+        </p>
+    </span>
     <p>
-        {{ with .Site.Params.Copyright }}
-            {{ . }} <br>
-        {{ end }}
         {{ with .Site.Params.Author }}
-            © {{ dateFormat "2006" now }}, {{ . }}.
+            ©{{ dateFormat "2006" now }} {{ . }}
         {{ end }}
     </p>
     {{ if not .Site.Params.DontShowSource}}
         <p>
-            Made with
-            <a target="_blank" class="source-love" href="https://github.com/boratanrikulu/eternity">Love</a>
+            made with
+            <a target="_blank" class="source-love" href="https://github.com/joypauls/hugo-cosmic-theme">love</a>
             <i class="fa-solid fa-heart"></i>
         </p>
     {{ end }}
