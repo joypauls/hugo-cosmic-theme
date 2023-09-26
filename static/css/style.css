@@ -205,8 +205,8 @@ a img {
 }
 
 .slide img {
-    max-width: 800px;
-    max-height: 70%;
+    width: auto;
+    max-height: 80vh;
     margin: auto;
     display: block;
 }
@@ -282,12 +282,6 @@ section .column img {
 
 .alittle {
     max-width: 920px;
-}
-
-.slide img {
-    margin-bottom: 10px;
-    width: auto;
-    max-height: 92vh;
 }
 
 .portfolio {
