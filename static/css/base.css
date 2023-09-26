@@ -81,6 +81,11 @@ a.active {
     border-bottom: 2px solid var(--main);
 }
 
+.a-clean {
+    font-family: "Lato Light";
+    color: var(--text);
+}
+
 .a-clean:hover,
 a-clean.active {
     border-bottom: unset;
