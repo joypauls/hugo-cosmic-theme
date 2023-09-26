@@ -8,7 +8,7 @@
 }
 
 .content a strong {
-    border-bottom: 2px solid #e7e7e7;
+    border-bottom: 2px solid var(--main);
 }
 
 .content p code,
@@ -33,11 +33,11 @@
 }
 
 .content blockquote p {
-    color: var(--white);
+    color: var(--text);
 }
 
 .content pre code {
-    color: var(--white);
+    color: var(--text);
 }
 
 .content pre,

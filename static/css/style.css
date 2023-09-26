@@ -1,5 +1,5 @@
 .title {
-    color: var(--white);
+    color: var(--text);
     font-size: xx-large;
 }
 
@@ -21,15 +21,19 @@
 .welcome-title {
     text-align: center;
     font-size: 2em;
+    font-family: "Lato Light";
+    color: var(--text);
 }
 
 .welcome-subtitle {
     font-size: 1.2em;
+    font-family: "Lato Light Italic";
 }
 
 .navbar-end {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .navbar-middle {
@@ -42,9 +46,10 @@
 
 .socials {
     width: 80%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     justify-content: space-around;
+    padding: 1rem;
 }
 
 .social {
@@ -64,14 +69,28 @@
     display: grid;
     margin-top: 50px;
     justify-content: center;
+    color: var(--main);
 }
 
 .enter>.button {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     height: 50px;
-    width: 170px;
-    opacity: 0.9 !important;
-    font-size: 1.9em;
+    width: 150px;
+    /* opacity: 1.0 !important; */
+    /* font-size: 1.5rem; */
+    color: var(--white);
+    /* background-color: transparent; */
+    background-color: var(--main);
+    /* border-radius: 5px; */
+    /* border-color: var(--main); */
+    border: none;
+    border-radius: 0px;
+    font-family: "Lato Regular";
+    font-size: x-large;
+}
+
+.enter > .button:hover {
+    background-color: var(--main-light);
 }
 
 .enter>div.warn>span.warn {
@@ -84,13 +103,14 @@
 }
 
 nav.navbar {
-    background-color: var(--dark);
+    background-color: var(--background);
     justify-content: people-between;
     align-items: center;
     height: unset !important;
-    margin-left: 2em;
-    margin-right: 2em;
-    padding-top: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .navbar-burger {
@@ -100,6 +120,17 @@ nav.navbar {
 
 .menu {
     max-width: 600px;
+    display: flex;
+    justify-content: center;
+    font-family: "Lato Light";
+}
+
+.menu a {
+    color: var(--text);
+}
+
+.menu a.active, a:hover {
+    color: var(--main);
 }
 
 .margin-bottom-50 {
@@ -112,14 +143,6 @@ div.logo {
 
 img.logo {
     height: 100%;
-}
-
-.welcome-end {
-    width: 100%;
-    padding: 20px;
-    bottom: 0;
-    text-align: center;
-    font-size: smaller;
 }
 
 img {
@@ -172,13 +195,20 @@ a img {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(244, 244, 244, 0.95);
 }
 
 .slide {
     justify-content: center;
     justify-items: center;
     box-sizing: border-box;
+}
+
+.slide img {
+    width: auto;
+    max-height: 80vh;
+    margin: auto;
+    display: block;
 }
 
 .noscroll {
@@ -193,13 +223,13 @@ a img {
 .navigate {
     position: fixed;
     bottom: 25px;
-    right: 100px;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10%;
-    padding: 20px;
+    right: 60px;
+    background-color: var(--background);
+    /* border-radius: 10%; */
+    padding: 10px;
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    /* height: 100px; */
     align-items: center;
 }
 
@@ -210,14 +240,15 @@ a img {
     font-weight: bold;
     font-size: 36px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    /* border-radius: 0 3px 3px 0; */
     user-select: none;
     -webkit-user-select: none;
+    width: 20px;
 }
 
 .next {
-    margin-left: 50px;
-    border-radius: 3px 0 0 3px;
+    margin-left: 30px;
+    /* border-radius: 3px 0 0 3px; */
 }
 
 .modal-close {
@@ -253,12 +284,6 @@ section .column img {
     max-width: 920px;
 }
 
-.slide img {
-    margin-bottom: 10px;
-    width: auto;
-    max-height: 92vh;
-}
-
 .portfolio {
     margin: 10px;
     width: 100%;
@@ -281,7 +306,8 @@ section .column img {
 }
 
 .slide-info {
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 200px;
     margin-left: 20px;
     font-size: medium;
     width: 800px;
@@ -300,8 +326,8 @@ section .column img {
 
 .slide-meta-title {
     text-align: center;
-    height: 70px;
-    font-size: x-large;
+    font-size: xx-large;
+    margin: 1rem;
 }
 
 .text-center {
@@ -322,8 +348,11 @@ section .column img {
 }
 
 .footer {
-    background-color: var(--dark);
-    color: rgb(245, 245, 245);
+    /* background-color: var(--background); */
+    color: var(--text);
+    font-size: small;
+    font-family: "Lato Light";
+    margin-top: 4rem;
 }
 
 .source-love {
@@ -404,3 +433,23 @@ section .column img {
         margin-top: 0;
     }
 }
+
+/* Portfolio welcome page */
+.banner-image-container {
+    /* width: 500px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.banner-image {
+    width: 500px;
+    border: 1px solid var(--text);
+}
+
+.banner-text {
+    font-family: "Lato Light Italic";
+}
+
+

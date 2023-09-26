@@ -67,4 +67,9 @@
     .slide-imgs {
         padding-bottom: 20px;
     }
+
+    .banner-image {
+        width: 100%;
+        border: 1px solid var(--text);
+    }
 }

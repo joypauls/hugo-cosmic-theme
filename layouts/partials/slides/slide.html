@@ -62,11 +62,6 @@
 						{{ end }}
 						{{ partial "slides/meta" (dict "imgs" $imgs "ctx" .ctx) }}
 					{{ end }}
-					{{ if not .ctx.Params.hideExif }}
-						{{ with (index $imgs 0).Exif }}
-							{{ partial "helpers/exif.html" . }}
-						{{ end }}
-					{{ end }}
 					{{ .ctx.Content }}
 				</div>
 			</div>

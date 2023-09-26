@@ -1,11 +1,7 @@
-# Eternity
+# Cosmic Theme for Hugo
 
-<div align="center">
-	<img src="https://raw.githubusercontent.com/boratanrikulu/eternity/main/doc/logo.gif">
-	<p>
-        Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel.
-	</p>
-</div>
+This theme is a fork of the wonderful [Eternity theme](https://github.com/boratanrikulu/eternity) by [Bora Tanrikulu](https://github.com/boratanrikulu), adjusted to my particular use case. Make sure you check it out if you're looking for an easy to use, great looking, and reliable Hugo theme for your website!
+
 
 ### Demo
 
@@ -17,71 +13,6 @@ https://user-images.githubusercontent.com/20258973/180658086-24069751-1e78-44ef-
 
 </div>
 
-### Used by
-
-- [**cankalay.com**](https://cankalay.com)  
-  A photographer website.
-
-- [**www.twosmallbirds.art**](https://www.twosmallbirds.art)  
-  An illustrator website.
-
-- [**www.lucywingard.com**](https://www.lucywingard.com)  
-  A ceramic artist website.
-
-- [**emily5.com**](https://emily5.com)  
-  A graphic designer website.
-
-- [**davidbliss.art**](https://davidbliss.art/)  
-  A drawings website.
-
-- [**tatjana-hodes.de**](https://tatjana-hodes.de)  
-  An artist website.
-
-- [**cubrix.art**](https://cubrix.art/en/)  
-  An artist website.
-
-- [**asjadnaqvi.github.io/stata-portfolio**](https://asjadnaqvi.github.io/stata-portfolio/tags/portfolio/)  
-  Stata dataviz portfolio.
-  
-- [**zone.photos**](https://zone.photos)  
-  A photographer website.
-  
-- [**thomaslaneart.com**](https://thomaslaneart.com)  
-  An artist website.
-
-- [**taschchen.art**](https://taschchen.art)  
-  An artist website.
-
-- [**www.michael-bolus.com**](https://www.michael-bolus.com/)  
-  A photographer website.
-
-- [**www.stndc.com**](https://www.stndc.com)  
-  A website about sound and music computing.
-
-- [**magikjefotomaken.be**](https://magikjefotomaken.be/)  
-  A photographer website.
-
-- [**floragrh.com.ar**](https://floragrh.com.ar/)  
-  An illustrator website.
-
-- [**fotos.pilat.cc**](https://fotos.pilat.cc/)  
-  A photographer website.
-
-- [**www.phidelart.com**](https://www.phidelart.com/)  
-  An artist website.
-
-- [**peties.art**](https://peties.art/)  
-  An artist website.
-
-- [**krystalledoux.com**](https://krystalledoux.com/)  
-  An artist website.
-
-- [**neilstoddard.com**](https://neilstoddard.com/)  
-  A photographer website.
-
-*Feel free to add your site here.*  
-
-Note: If you're an artist who wants to host a website but doesn't have know how to, I can help you about technical questions for free. Just send an email to [**eternity@bora.sh**](mailto:eternity@bora.sh), I will assist you first.
 
 ### Features
 
